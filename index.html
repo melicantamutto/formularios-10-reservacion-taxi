@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservación de taxi</title>
+</head>
+<body>
+    <main>
+        <h1>Book a car</h1>
+        <form>
+            <fieldset>
+                <ul>
+                    <li class="half">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </li>
+                    <li class="half">
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </li>
+                    <li class="full">
+                        <label for="phone">phone</label>
+                        <input type="text" id="phone" name="name" placeholder="Enter your phone number">
+                    </li>
+                    <li class="full">
+                        <label for="pickUp">pickUp location</label>
+                        <input type="text" id="pickUp" name="pickUp" placeholder="Enter ZIP/Location">
+                    </li>
+                    <li class="full">
+                        <label for="destination">destination</label>
+                        <input type="text" id="destination" name="destination" placeholder="Enter ZIP/Location">
+                    </li>
+                    <li class="forty">
+                        <label for="date">pickup date</label>
+                        <input type="text" id="date" name="date" placeholder="mm/dd/yyyy">
+                    </li>
+                    <li class="twenty">
+                        <label for="hour">hour</label>
+                        <select id="hour" name="hour">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </li>
+                    <li class="twenty">
+                        <label for="min">min</label>
+                        <select id="min" name="min">
+                            <option value="05">05</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                            <option value="45">45</option>
+                            <option value="50">50</option>
+                            <option value="55">55</option>
+                            <option value="00">00</option>
+                        </select>
+                    </li>
+                    <li class="twenty">
+                        <label for="amPm">am/pm</label>
+                        <select id="amPm" name="amPm">
+                            <option value="am">AM</option>
+                            <option value="pm">PM</option>
+                        </select>
+                    </li>
+                </ul>
+                <button type="submit">Book now</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
